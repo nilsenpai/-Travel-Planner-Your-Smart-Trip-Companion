@@ -2,7 +2,7 @@ import google.generativeai as genai
 from serpapi import GoogleSearch
 import streamlit as st
 
-genai.configure(api_key="AIzaSyD3N6UOddiuHiCbPrc8B9iEn8PhZwaomaw")
+genai.configure(api_key=" YOUR API KEY ")
 st.title("Travel Planner Your Best Guide")
 
 
@@ -37,7 +37,7 @@ if st.button("Plan My Trip"):
             "return_date": return_date.strftime("%Y-%m-%d"),
             "currency": "INR",
             "hl": "en",
-            "api_key": "92e07318fa9443ff6884a3b7ca2b4f4ff5636d703c9069dd24505c8e32fa9d11"
+            "api_key": " YOUR API KEY "
         }
 
         flight_search = GoogleSearch(flight_params)
@@ -52,7 +52,7 @@ if st.button("Plan My Trip"):
             "currency": "INR",
             "hl": "en",
             "gl": "in",
-            "api_key": "92e07318fa9443ff6884a3b7ca2b4f4ff5636d703c9069dd24505c8e32fa9d11"
+            "api_key": " OUR API KEY "
         }
         hotel_search = GoogleSearch(hotel_params)
         hotel_results = hotel_search.get_dict()
