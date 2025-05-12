@@ -52,7 +52,7 @@ if st.button("Plan My Trip"):
             "currency": "INR",
             "hl": "en",
             "gl": "in",
-            "api_key": " OUR API KEY "
+            "api_key": " YOUR API KEY "
         }
         hotel_search = GoogleSearch(hotel_params)
         hotel_results = hotel_search.get_dict()
