@@ -18,5 +18,5 @@ An AI-powered travel planning app built using **Google Gemini**, **SerpAPI**, an
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/travel-planner-app.git
+   git clone https://github.com/nilsenpai/travel-planner-app.git
    cd travel-planner-app
